@@ -1,0 +1,3 @@
+yum install docker
+
+docker run -p 3307:3306 --name mysql02 -e MYSQL_ROOT_PASSWORD=123456 -d mysql
